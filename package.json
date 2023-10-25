@@ -1,6 +1,6 @@
 {
   "name": "@b00tc4mp/cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "B00TC4MP CLI",
   "keywords": [
     "b00tc4mp",
@@ -11,6 +11,7 @@
     "b00tc4mp": "index.js"
   },
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manuel Barzi",
@@ -20,6 +21,6 @@
     "url": "https://github.com/b00tc4mp/b00tc4mp-cli.git"
   },
   "dependencies": {
-    "opn": "^6.0.0"
+    "open": "^9.1.0"
   }
 }

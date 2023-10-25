@@ -1,5 +1,7 @@
-const opn = require('opn')
+#!/usr/bin/env node
 
 const url = 'https://b00tc4mp.com'
 
-opn(url, { wait: false }).then(() => console.log(`Opening ${url}`))
+import('open')
+    .then(({ default: open }) => open(url, { wait: false }))
+    .then(() => console.log(`Opening ${url}`))
